@@ -85,6 +85,55 @@ table th {
   font-weight: normal;
 }
 
+.net-income-calc {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 14px;
+  margin-top: 16px;
+}
+
+.net-income-calc .calc-note {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin-top: 0;
+}
+
+.net-income-calc label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.net-income-calc input[type="number"] {
+  width: 100px;
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 0.95rem;
+  margin-left: 6px;
+}
+
+.net-income-calc button {
+  padding: 6px 14px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.net-income-calc button:hover {
+  opacity: 0.9;
+}
+
+.net-income-calc [data-calc-result] {
+  margin-top: 10px;
+  font-size: 0.92rem;
+  line-height: 1.8;
+}
+
 .caution {
   margin-top: 10px;
   padding: 8px 10px;
