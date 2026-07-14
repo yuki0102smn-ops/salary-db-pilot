@@ -147,6 +147,28 @@ footer {
   font-size: 0.8rem;
 }
 
+.job-index {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.job-index li a {
+  display: block;
+  padding: 10px 12px;
+  margin-bottom: 6px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.job-index li a:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 details {
   background: var(--card);
   border: 1px solid var(--border);
